@@ -1,0 +1,67 @@
+.icon-blank{
+	background:url('../Theme/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('../Theme/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('../Theme/pencil.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('../Theme/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('../Theme/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('../Theme/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('../Theme/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('../Theme/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('../Theme/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('../Theme/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('../Theme/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('../Theme/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('../Theme/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('../Theme/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('../Theme/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('../Theme/back.png') no-repeat center center;
+}
+.icon-down{
+	background:url('../Theme/down.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('../Theme/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('../Theme/tip.png') no-repeat center center;
+}
+
+.icon-mini-add{
+	background:url('../Theme/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('../Theme/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('../Theme/mini_refresh.png') no-repeat center center;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search</title>
+<link rel="stylesheet" type="text/css" href="Theme/temp.css">
+<link rel="stylesheet" type="text/css" href="Theme/icon.css">
+<link rel="stylesheet" type="text/css" href="Theme/easyui.css">
+<script type="text/javascript" src="Jquery/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="Jquery/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="Jquery/index.js"></script>
+</head>
+<body>
+	<div id="index">
+		<a id="manage">索引管理</a>
+		<div id="indexMenu">
+			<div id="monitor">即时索引</div>
+			<div id="cycle">周期索引</div>
+			<div id="manual">手动索引</div>
+		</div>
+		<span id="state"></span>
+	</div>
+	<div id="option" class="indexOption">
+		<span id="contents" class="fullTextSearch" style="margin-left: 25px;">全文检索</span>
+		<span id="name" class="nameSearch">文件名称</span> 
+		<span id="type" class="typeSearch">文件类型</span>
+		<span id="author" class="authorSearch">文件作者</span>
+		<span id="date"	class="dateSearch">提交时间</span> 
+		<span id="version" class="versionSearch">文件版本</span>
+		<span id="complexity" class="complexitySearch">高级检索</span>
+	</div>
+	<div id="indexSearch">
+		<input id="indexContent" type="text" /> 
+		<input id="submit" type="submit" value="搜索" />
+	</div>
+	<div id="content" class="easyui-layout">
+		<div data-options="region:'center'">
+			<div class="easyui-panel"></div>
+			<div id="toolbar">
+				<div>
+					<a id="refresh">refresh</a>
+					<a id="setting">setting</a>
+				</div>
+			</div>
+			<div id="settings">
+				<div>
+					<fieldset>
+						<legend> View </legend>
+						<table>
+							<tr>
+								<th><input id="viewThumbs" type="radio" name="view" /></th>
+								<td><label for="viewThumbs">Icon</label></td>
+								<th><input id="viewList" type="radio" name="view" /></th>
+								<td><label for="viewList">List</label></td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+				<div>
+					<fieldset>
+						<legend> Show </legend>
+						<table>
+							<tr>
+								<th><input id="showName" type="checkbox" name="name" /></th>
+								<td><label for="showName">Name</label></td>
+								<th><input id="showAuthor" type="checkbox" name="author" />
+								</th>
+								<td><label for="showAuthor">Author</label></td>
+								<th><input id="showSize" type="checkbox" name="size" /></th>
+								<td><label for="showSize">Size</label></td>
+								<th><input id="showDate" type="checkbox" name="date" /></th>
+								<td><label for="showDate">Date</label></td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+				<div>
+					<fieldset>
+						<legend> Sort </legend>
+						<table>
+							<tr>
+								<th><input id="sortName" type="radio" name="sort" /></th>
+								<td><label for="sortName">Name</label></td>
+								<th><input id="sortType" type="radio" name="sort" /></th>
+								<td><label for="sortType">Classification</label></td>
+								<th><input id="sortSize" type="radio" name="sort" /></th>
+								<td><label for="sortSize">Size</label></td>
+								<th><input id="sortDate" type="radio" name="sort" /></th>
+								<td><label for="sortDate">Date</label></td>
+								<th><input id="sortAuthor" type="radio" name="sort" /></th>
+								<td><label for="sortAuthor">Author</label></td>
+								<th><input id="descending" type="checkbox" name="desc" />
+								</th>
+								<td><label for="descending">Descending</label></td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+			</div>
+			<div id="files"></div>
+			<div id="fileinfo"></div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>©CopyRight</div>
+	</div>
+</body>
+</html>
